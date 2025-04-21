@@ -97,10 +97,10 @@ with st.container():
 
     st.markdown('<p class="subheading">📋 Enter Your Details</p>', unsafe_allow_html=True)
 
-    st.markdown("### 🎂 Age")
+    st.markdown('<span style="color:black; font-size:18px;">🎂 Age</span>', unsafe_allow_html=True)
     age = st.slider("", min_value=18, max_value=100, value=25)
 
-    st.markdown("### 💰 Income in Lakhs")
+    st.markdown('<span style="color:black; font-size:18px;">💰 Income in Lakhs</span>', unsafe_allow_html=True)
     income_lakhs = st.slider("", min_value=0, max_value=200, value=10)
 
     col1, col2, col3 = st.columns(3)
